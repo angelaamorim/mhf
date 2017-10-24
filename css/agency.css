@@ -32,7 +32,6 @@ section {
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
-    color: black;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 75px;
@@ -72,8 +71,8 @@ body {
   -webkit-tap-highlight-color: #fed136; }
 
 #mainNav {
-  background-color: #CDC5BF;
-  opacity: 65}
+  background-color: #CFCFCF;
+  opacity: 0.95}
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -119,7 +118,8 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #CFCFCF; }
+      background-color: #CFCFCF;
+    }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
@@ -445,7 +445,7 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-color: #c4c0c0;
+  background-color: #CFCFCF;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; }
