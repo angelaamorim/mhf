@@ -108,6 +108,13 @@ body {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent; }
+    
+    #mainNav .navbar-brand {
+      display:none;
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
@@ -115,14 +122,23 @@ body {
       transition: all 0.3s; }
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important; }
-    #mainNav.navbar-shrink {
+    #mainNav.navbar-shrink{
+      display: block;
       padding-top: 0;
       padding-bottom: 0;
       background-color: #CFCFCF;
     }
       #mainNav.navbar-shrink .navbar-brand {
+        display: block;
+        display: block;
+        display: block;
         font-size: 1.25em;
-        padding: 12px 0; } }
+        padding: 12px 0; } 
+
+
+}
+
+
 
 header.masthead {
   text-align: center;
@@ -136,7 +152,7 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 145px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
@@ -153,7 +169,7 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 160px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
