@@ -1,3 +1,4 @@
-<?php
-include_once 'index.html'
+<?php 
+ini_set('default_charset','UTF-8');
+include_once 'inicio.html';
 ?>
